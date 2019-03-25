@@ -30,7 +30,7 @@ extension URLRequest {
     }
 }
 
-final class ApiClient{
+final class ApiClient {
     
     func load( resource: Resource, _ complition: @escaping ((Result<Data>) -> Void)) {
         let request = URLRequest(resource)

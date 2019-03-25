@@ -14,9 +14,9 @@ final class DogApiModel: DogApiModelInput {
     var repository: Repository!
     
     func load() {
-        repository.getRandomDog(){
-            
-        }
+//        repository.getRandomDog(){
+//            
+//        }
     }
     
 }
